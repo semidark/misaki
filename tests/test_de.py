@@ -230,6 +230,10 @@ class TestTimes:
         assert "fünfzehn Uhr" in r
         assert "null" not in r
 
+    def test_no_double_uhr(self):
+        r = normalize_text_de("Um 14:30 Uhr")
+        assert r.count("Uhr") == 1
+
 
 class TestDates:
     def test_christmas(self):
