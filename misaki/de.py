@@ -227,7 +227,7 @@ def normalize_text_de(text):
         h, mi = int(m.group(1)), int(m.group(2))
         return _int_to_de(h) + " Uhr" + (" " + _int_to_de(mi) if mi else "")
 
-    text = re.sub(r"\b(\d{1,2}):(\d{2})\b", _time_repl, text)
+    text = re.sub(r"\b(\d{1,2}):(\d{2})(?:\s*Uhr)?", _time_repl, text)
 
     # 6. Full dates (DD.MM.YYYY)
     def _date_repl(m):
