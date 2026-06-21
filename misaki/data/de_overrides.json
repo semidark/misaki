@@ -30,7 +30,21 @@
         "typescript": "tˈaɪpskʁɪpt",
         "unsloth": "ˈʌnslɔːθ",
         "vits": "vˈɪts",
-        "vscode": "viːˈɛs koːt"
+        "vscode": "viːˈɛs koːt",
+        "arduino": "aʁdˈuːiːno",
+        "chatgpt": "tʃɛt dʒiːpiːtˈiː",
+        "discord": "dɪskˈɔʁt",
+        "docker": "dˈɔkɐ",
+        "google": "ɡˈuːɡl̩",
+        "instagram": "ˈɪnstɐɡʁam",
+        "netflix": "nˈɛtflɪks",
+        "openai": "ˈoːpən aɪ",
+        "reddit": "ɹˈɛdɪt",
+        "samsung": "zˈamzʊŋ",
+        "telegram": "tɛləˈɡʁam",
+        "tiktok": "tˈɪktɔk",
+        "whatsapp": "vˈɔtsʔap",
+        "youtube": "jˈuːtjuːp"
     },
     "en": {
         "accelerate": "ɐksˈɛlɚɹˌAt",
@@ -80,7 +94,22 @@
         "ui": "juːˈaɪ",
         "wavlm": "wˈɛɪv ɛlˈɛm",
         "wsl": "dˌʌbəljˌuːˌɛsˈɛl",
-        "zero-shot": "zˈiːɹo ʃˈɔt"
+        "zero-shot": "zˈiːɹo ʃˈɔt",
+        "backend": "bˈɛkʔɛnd",
+        "browser": "bɹˈaʊzɐ",
+        "cloud": "klˈaʊd",
+        "commit": "kɔmˈɪt",
+        "dashboard": "dˈɛʃbɔːɐd",
+        "default": "diːfˈɔlt",
+        "deployment": "diːplˈɔɪmənt",
+        "device": "diːvˈaɪs",
+        "framework": "fɹˈeɪmwœːɐk",
+        "frontend": "fɹˈʌntʔɛnd",
+        "login": "lˈɔɡɪn",
+        "logout": "lˈɔɡaʊt",
+        "server": "sˈœːɐvɐ",
+        "update": "ˈaptɛɪt",
+        "workflow": "wˈœːɐkfloː"
     },
     "de_foreign": {
         "diathese": "diaˈteːzə",
@@ -94,7 +123,17 @@
         "prosthese": "pʁɔstˈeːzə",
         "prothese": "pʁotˈeːzə",
         "symbiose": "zymbɪˈoːzə",
-        "synthese": "zyntˈeːzə"
+        "synthese": "zyntˈeːzə",
+        "anatomie": "anatoˈmiː",
+        "biologie": "bioloˈɡiː",
+        "chemie": "çeˈmiː",
+        "methode": "meˈtoːdə",
+        "philosophie": "filozoˈfiː",
+        "physik": "fyˈziːk",
+        "psychologie": "psyçoloˈɡiː",
+        "sympathie": "zʏmpaˈtiː",
+        "theorie": "teoˈʁiː",
+        "therapie": "teʁaˈpiː"
     },
     "aliases": {
         "moetandchandon": "moetchandon"
