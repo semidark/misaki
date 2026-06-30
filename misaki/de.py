@@ -409,14 +409,14 @@ def normalize_for_lookup(text: str) -> str:
 def _load_overrides():
     """Load de_overrides.json and build the normalized lookup table.
 
-    Priority on key collisions: brand > en > de_foreign (first writer wins).
+    Priority on key collisions: brand > en > de_abbrevs > de_foreign (first writer wins).
     Returns (lookup, aliases) where lookup maps normalized keys to phonemes and
     aliases maps one normalized key to another.
     """
     with importlib.resources.open_text(data, "de_overrides.json") as r:
         raw = json.load(r)
     lookup = {}
-    for section in ("brand", "en", "de_foreign"):
+    for section in ("brand", "en", "de_abbrevs", "de_foreign"):
         for key, value in raw.get(section, {}).items():
             lookup.setdefault(normalize_for_lookup(key), value)
     aliases = {
